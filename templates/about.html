@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Download Youtube videos for free using Youtube Video Downloader">
+    <meta name="author" content="Vaibhav Masaye">
+    <title>Youtube Video Downloader</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/examples/cover/">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <meta name="theme-color" content="#563d7c">
+
+
+    <style>
+         body{
+            background-image: url(https://cdn.pixabay.com/photo/2016/05/05/02/37/sunset-1373171_960_720.jpg);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+    <!-- Custom styles for this template -->
+    <link href="{{ url_for('static', filename = '/cover.css') }}" rel="stylesheet">
+</head>
+
+<body class="text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="masthead mb-auto">
+            <div class="inner">
+                <h4 class="masthead-brand">Youtube Video Downloader</h4>
+                <nav class="nav nav-masthead justify-content-center">
+                    <a class="nav-link " href="/">Home</a>
+                    <a class="nav-link active" href="/about">About</a>
+                    <a class="nav-link" href="/terms-conditions">Terms & Conditions</a>
+                </nav>
+            </div>
+        </header>
+        <div class="jumbotron">
+            <h1 class="display-4 ">Youtube Video Downloader</h1>
+            <p class="lead">About us</p>
+
+        </div>
+        <main role="main" class="inner cover">
+            <h4> Download Youtube videos for free using our tools</h4>
+        </main>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                <p>Youtube Video Downloader by <a
+                        href="#">Vaibhav Masaye</a>.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
